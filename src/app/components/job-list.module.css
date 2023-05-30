@@ -1,0 +1,33 @@
+.section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.card {
+  display: grid;
+  gap: 1rem;
+  border: 0.1rem solid #ebebeb;
+  border-radius: 0.2rem;
+  padding: 0.8rem 1rem;
+}
+
+.card img {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.content {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.content span:first-of-type {
+  font-weight: 500;
+}
+
+.content span:last-of-type {
+  font-size: 0.8rem;
+}
